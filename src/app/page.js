@@ -59,7 +59,7 @@ export default function Home() {
           <h1 className="text-3xl font-bold text-slate-100 my-8">Mes projets récents</h1>
           {config.profile.projects.map((project, index) => (
             <div key={index} className="flex flex-col items-center space-y-4">
-              <h2 className="text-xl font-bold text-slate-400">{project.title}</h2>
+              <h2 className="text-xl font-bold text-white">{project.title}</h2>
               <span className="text-lg text-slate-400">{project.description}</span>
               <span className="text-lg text-slate-400">Technologies utilisées: {project.technologies.join(', ')}</span>
             </div>
