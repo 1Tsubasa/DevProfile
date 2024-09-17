@@ -17,7 +17,7 @@ export default {
         socialMedia: {
             github: "https://github.com/1tsubasa",
             twitter: "https://twitter.com/_1tsubasa",
-            discord: "1tsubasa",
+            discord: "https://discord.gg/tsuhub",
             instagram: "https://www.instagram.com/lme.dev/"
         },
         projects: [{
