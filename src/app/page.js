@@ -56,7 +56,7 @@ export default function Home() {
           </div>
         </section>
         <section id='Projects' className="w-full bg-gray-700 p-8 rounded-lg shadow-lg">
-          <h1 className="text-3xl font-boldtext-slate-100 my-8">Mes projets récents</h1>
+          <h1 className="text-3xl font-bold text-slate-100 my-8">Mes projets récents</h1>
           {config.profile.projects.map((project, index) => (
             <div key={index} className="flex flex-col items-center text-slate-400 space-y-4">
               <h2 className="text-xl font-bold text-white">{project.title}</h2>
