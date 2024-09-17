@@ -26,7 +26,7 @@ const Footer = () => {
                         </Link>
                     </li>
                     </ul>
-                    <p className="text-sm font-semibold">Copyright © 2023 Clarity-Corp x LME WEB DEV. Tous droits réservés.</p>
+                    <p className="text-sm font-semibold">Copyright © 2024 Clarity-Corp x LME WEB DEV. Tous droits réservés.</p>
                     </div>
                     </footer>
     )
