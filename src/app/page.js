@@ -46,7 +46,7 @@ export default function Home() {
             <h1 className="text-3xl font-bold text-slate-100 my-2">Liens sociaux</h1>
             <ul className="flex flex-wrap gap-4">
               {Object.entries(config.profile.socialMedia).map(([key, value], index) => (
-                <li key={index} className="flex items-center text-slate-400 space-x-2">
+                <li key={index} className="flex items-center space-x-2">
                   <a href={value} target="_blank" rel="noreferrer">
                     <img src={`https://img.shields.io/badge/${key}-lightgrey?style=for-the-badge&logo=${key}`} alt={key} className="h-6 w-6"/>
                   </a>
@@ -58,10 +58,10 @@ export default function Home() {
         <section id='Projects' className="w-full bg-gray-700 p-8 rounded-lg shadow-lg">
           <h1 className="text-3xl font-bold text-slate-100 my-8">Mes projets récents</h1>
           {config.profile.projects.map((project, index) => (
-            <div key={index} className="flex flex-col items-center text-slate-400 space-y-4">
-              <h2 className="text-xl font-bold text-white">{project.title}</h2>
-              <span className="text-lg text-white">{project.description}</span>
-              <span className="text-lg text-white">Technologies utilisées: {project.technologies.join(', ')}</span>
+            <div key={index} className="flex flex-col items-center space-y-4">
+              <h2 className="text-xl font-bold text-slate-400">{project.title}</h2>
+              <span className="text-lg text-slate-400">{project.description}</span>
+              <span className="text-lg text-slate-400">Technologies utilisées: {project.technologies.join(', ')}</span>
             </div>
           ))}
         </section>
