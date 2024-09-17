@@ -6,7 +6,7 @@ export default {
         job: "Développeur Web",
         description: "Je suis un développeur web passionné et créatif.",
         location: "Paris, France",
-        skills: ["HTML", "CSS", "JavaScript", "React", "Next.js", "Tailwind CSS"],
+        skills: ["HTML", "CSS", "JavaScript", "React", "Next.js", "Tailwind CSS", "Golang", "Php", "MySql","MariaDb","MongoDb","PostgreSql","Sequelize","Laravel","C#","SCSS","Express","Ejs"],
         origines: ['Yougoslave', 'Italien', 'Français'],
         education: {
             university: "Lycée Amyot D'Inville Senlis",
