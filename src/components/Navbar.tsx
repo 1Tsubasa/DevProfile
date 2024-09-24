@@ -17,7 +17,7 @@ const Navbar = () => {
   };
 
   useEffect(() => {
-    const handleClickOutside = (e) => {
+    const handleClickOutside = (e: any) => {
       if (node.current.contains(e.target)) {
         // inside click
         return;
@@ -38,7 +38,7 @@ const Navbar = () => {
   }, [isOpen]);
 
   useEffect(() => {
-    const handleEscape = (e) => {
+    const handleEscape = (e: any) => {
       if (e.key === 'Escape') {
         closeMenu();
       }
