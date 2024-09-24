@@ -1,6 +1,6 @@
 export default {
-    nav_icon: "https://cdn.discordapp.com/attachments/1225129360210530434/1282410670322618428/Untitled_design2.png?ex=66e9cd81&is=66e87c01&hm=bfdfca360e637041b51d6595990bd8bfa40a1e2de8734583bf8fed9c05e9ee11&",
-    tsu_icon: "https://cdn.discordapp.com/attachments/1280795478136586256/1285290406350819328/tsu.gif?ex=66e9bb78&is=66e869f8&hm=d742284ca6038db99956f49e72818575bbcc743e0c6526771b559971b3bf5405&",
+    nav_icon: "https://cdn.discordapp.com/attachments/1287933464083042314/1288180712067043358/Untitled_design2.png?ex=66f43f46&is=66f2edc6&hm=efc53b1a23525614323298f305dc32f5faa7d15527b5770b4c255007daf13fed&",
+    tsu_icon: "https://cdn.discordapp.com/attachments/1287933464083042314/1288179556158541864/fairy-tale-shooting-star.gif?ex=66f43e33&is=66f2ecb3&hm=3204fb49568df89edbbadbd94291d461a66bfbca8f856558513ad8a2f48dfd48&",
     profile: {
         name: "1tsubasa",
         job: "Développeur Web",
@@ -28,6 +28,6 @@ export default {
             title: "AutomailSender",
             description: "Envoi d'emails Automatique",
             technologies: ["Golang"]
-        }]
+        }],
     }
 }
