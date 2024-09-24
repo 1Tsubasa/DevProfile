@@ -6,7 +6,7 @@ import { Menu, X } from 'lucide-react';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const node = useRef();
+  const node = useRef<HTMLDivElement>(null);
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
@@ -17,8 +17,8 @@ const Navbar = () => {
   };
 
   useEffect(() => {
-    const handleClickOutside = (e: any) => {
-      if (node.current.contains(e.target)) {
+    const handleClickOutside = (e: MouseEvent) => {
+      if (node.current && node.current.contains(e.target as Node)) {
         // inside click
         return;
       }
@@ -38,7 +38,7 @@ const Navbar = () => {
   }, [isOpen]);
 
   useEffect(() => {
-    const handleEscape = (e: any) => {
+    const handleEscape = (e: KeyboardEvent) => {
       if (e.key === 'Escape') {
         closeMenu();
       }
